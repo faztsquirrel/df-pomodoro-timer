@@ -14,6 +14,6 @@ one-page website with the following features:
 
 ## Usage
 
-Simply visithttps://faztsquirrel.github.io/df-pomodoro-timer/
+Simply visit https://faztsquirrel.github.io/df-pomodoro-timer/
 
 Or clone this repository and open `index.html`!
