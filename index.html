@@ -311,7 +311,7 @@
 						}
 					} else if(mode == 1) {
 						if(stage == 0) {
-							var minutes = 2 - time_since(date_start);
+							var minutes = 25 - time_since(date_start);
 
 							if(minutes == 0) {
 								mode = 0;
@@ -442,7 +442,7 @@
 
 					if ('serviceWorker' in navigator) {
 						window.addEventListener('load', function() {
-						  navigator.serviceWorker.register('/service_worker.js').then(function(registration) {
+						  navigator.serviceWorker.register('service_worker.js').then(function(registration) {
 						    // Registration was successful
 						    console.log('ServiceWorker registration successful with scope: ', registration.scope);
 						  }, function(err) {
