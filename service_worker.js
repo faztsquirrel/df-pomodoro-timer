@@ -3,16 +3,21 @@ var urlsToCache = [
   'android-chrome-192x192.png',
   'android-chrome-512x512.png',
   'apple-touch-icon.png',
+  'beep.wav',
   'browserconfig.xml',
   'favicon-16x16.png',
   'favicon-32x32.png',
   'favicon.ico',
   'index.html',
   'mstile-150x150.png',
+  'pomodoro.css',
+  'pomodoro.js',
   'pomodoro.webmanifest',
   'safari-pinned-tab.svg',
   'service_worker.js',
-  'site.webmanifest',
+  'https://fonts.googleapis.com/css?family=Roboto',
+  'https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.9/typicons.css',
+  'https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css'
 ];
 
 self.addEventListener('install', function(event) {
