@@ -121,9 +121,6 @@
 		switch_audio
 	)
 
-	switch_audio();
-	switch_audio();
-
 	function time_since(date) {
 		return Math.round((
 				(
@@ -275,6 +272,9 @@
 		}
 
 		update_tasks();
+
+		switch_audio();
+		switch_audio();
 
 		if ('serviceWorker' in navigator) {
 			window.addEventListener('load', function() {
